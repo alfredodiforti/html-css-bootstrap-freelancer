@@ -4,8 +4,20 @@
 }
 /* MEDIAQUERY */
 @media screen and (min-width: 768px) {
-  .navbar-default .navbar-header .navbar-brand {font-size:30px;} {
-    font-size: 30px;
+  .navbar-default .navbar-header .navbar-brand {
+    font-size:30px;
+  }
+  .backgreen .container .row h1 {
+    font-size: 60px;
+  }
+  .backgreen .container .row h2 {
+    font-size: 25px;
+  }
+  .mainwhite .row h1 {
+    font-size: 50px;
+  }
+  .container .row .Textcenter h2 {
+    font-size: 50px;
   }
 }
 /* HEADER */
@@ -57,7 +69,7 @@
   margin-bottom: 30px;
 }
 .backgreen h1 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 800;
   color: white;
   margin-bottom: 25px;
@@ -68,7 +80,7 @@
 }
 .backgreen h2 {
   color: white;
-  font-size: 25px;
+  font-size: 18px;
 
 }
 /* MAINWHITE */
@@ -79,7 +91,7 @@
 .mainwhite h1 {
   color: #2c3e50;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 38px;
   padding-bottom: 25px;
 }
 .mainwhite i {
@@ -92,6 +104,7 @@
   height: 240px;
   border-radius: 10px;
   margin-bottom: 50px;
+  max-width: 100%;
 }
 .rossa {
   background-color: #ba4c63;
@@ -138,7 +151,6 @@
 /* MINIGREEN */
 .minigreen {
   background-color: #1abc9c;
-  height: 600px;
 }
 .minigreen h2 {
   color: white;
@@ -157,6 +169,70 @@
   font-weight: 300;
   font-size: 18px;
   text-align: left;
+}
+.minigreen .btn {
+  margin-top: 40px;
+}
+.minigreen .btn-group-lg > .btn, .btn-lg {
+  padding-right: 15px;
+  padding-left: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+.minigreen .btn i {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 0;
+  color: white;
+  font-size: 18px;
+  transition: linear 0.2s;
+}
+.btn-default {
+  color: white;
+  background-color: #1abc9c;
+  border-color: white;
+  transition: linear 0.2s;
+}
+.btn-default:hover {
+  color: black;
+  border-color: transparent;
+}
+.btn-default:hover i {
+  color: black;
+}
+
+/* SECONDWHITE */
+.container .row h2 {
+  color: #2c3e50;
+  font-weight: 800;
+  font-size: 34px;
+  padding-bottom: 25px;
+  padding-top: 60px;
+}
+.container .row i {
+  font-size: 30px;
+  color: #2c3e50;
+  padding-bottom: 45px;
+}
+form .form-group label {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #6c757d;
+  font-weight: 600;
+}
+form .form-group input {
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-radius: 0px;
+  box-shadow: none;
+}
+form .form-group .form-control {
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  box-shadow: none;
 
 }
 /* FOOTER */
@@ -174,10 +250,4 @@
 }
 .textleft {
   text-align: left;
-}
-/* MEDIAQUERY */
-@media screen and (max-width: 768px) {
-  .backblu .container .row .col-xs-12 {
-    text-align: center;
-  }
 }
