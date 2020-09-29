@@ -4,7 +4,7 @@
 }
 /* MEDIAQUERY */
 @media screen and (min-width: 768px) {
-  .navbar-default .navbar-brand {
+  .navbar-default .navbar-header .navbar-brand {font-size:30px;} {
     font-size: 30px;
   }
 }
@@ -52,12 +52,40 @@
   height: 660px;
 }
 .backgreen img {
+  max-height: 270px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.backgreen h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 25px;
+}
+.backgreen i {
+  font-size: 30px;
+  color: white;
+}
+.backgreen h2 {
+  color: white;
+  font-size: 25px;
 
 }
 /* MAINWHITE */
 .mainwhite{
   padding-top: 50px;
   padding-bottom: 50px;
+}
+.mainwhite h1 {
+  color: #2c3e50;
+  font-weight: 800;
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+.mainwhite i {
+  font-size: 30px;
+  color: #2c3e50;
+  padding-bottom: 45px;
 }
 .scatola {
   width: 330px;
@@ -68,25 +96,68 @@
 .rossa {
   background-color: #ba4c63;
 }
+.rossa img {
+  max-width: 100%;
+  border-radius: 10px;
+}
 .celeste {
   background-color: #1fa4b6;
+}
+.celeste img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 .nera {
   background-color: #130f0f;
 }
+.nera img {
+  max-width: 100%;
+  border-radius: 10px;
+}
 .blu {
   background-color: #1d83c1;
+}
+.blu img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 .violetto {
   background-color: #1037b5;
 }
+.violetto img {
+  max-width: 100%;
+  border-radius: 10px;
+}
 .sabbia {
   background-color: #ccb2a3;
+}
+.sabbia img {
+  max-width: 100%;
+  border-radius: 10px;
 }
 /* MINIGREEN */
 .minigreen {
   background-color: #1abc9c;
   height: 600px;
+}
+.minigreen h2 {
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  padding-bottom: 25px;
+  padding-top: 60px;
+}
+.minigreen i {
+  font-size: 30px;
+  color: white;
+  padding-bottom: 45px;
+}
+.minigreen p {
+  color: white;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+
 }
 /* FOOTER */
 .backdark {
